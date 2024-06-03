@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="ticTacToe.css"/>
+</head>
+<body background="image/tic-tac-toe-seamless-background-on-dark-blue-illustration-vector.jpg">
+
+    <p class="hidden" id="drawmsg">The game is DRAW</p>
+
+    <div class="msg-container hide">
+        <p id="msg"></p>
+        
+        <button id="new-btn">New Game</button>
+    </div>
+    <main>
+        <h1 id = "h11">Tic Tac Toe</h1>
+        <button class="player" id="pObtn">Player O</button>
+        <button class="player" id="pXbtn">Player X</button>
+        <div class="container">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+        <button id="resetBtn">Reset Game</button>
+    </main>
+
+    
+    <script src="ticTacToe.js"></script>
+</body>
+</html>
